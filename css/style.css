@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 60px;
+}
+
+header {
+    height: 60px;
+    background-color: #f6f6f6;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    transition: height 0.5s;
+    -webkit-transition: height 0.5s;
+    -moz-transition: height 0.5s;
+    -ms-transition: height 0.5s;
+    -o-transition: height 0.5s;
+}
+.changeHeader {
+    height: 50px;
+    background-color: gold;
+    box-shadow: 2px 5px 5px #000;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li a {
+    display: block;
+    margin: 5px;
+    color: #fff;
+    background-color: #f50; 
+    text-decoration: none;
+    padding: 10px;
+}
+
+header ul li a.active {
+    background-color: darkgreen;
+}
+
+section {
+    min-height: 450px;
+    display: none;
+}
+
+section.home {
+    background-color: coral;
+    display: block;
+    text-align: center;
+    line-height: 18;
+}
+
+section.about {
+    background-color: darkcyan;
+    text-align: center;
+    line-height: 18;
+}
+
+section.portfolio {
+    background-color: darkorange;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.portfolio h2 {
+    padding: 15px 0;
+}
+
+section.contact {
+    background-color:  darkslateblue;
+    text-align: center;
+}
+
+.portfolio img {
+    width: 350px;
+    height: 250px;
+}
+.contact h2{
+    padding: 40px 0;
+}
+
+input {
+    display: inline-block;
+    margin: 90px auto 0 auto;
+}
+
+textarea {
+    display: inline-block;
+    margin: 20px auto;
+    vertical-align: middle;
+}
+
+.scrollTop {
+    position: fixed;
+    bottom: 10px;
+    right: 0px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+    padding: 15px;
+    display: none;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+    background-color: darkgreen;
+    color: #fff;
+    margin: 15px;
+}

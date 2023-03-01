@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Project</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="#" id="home">Home</a></li>
+            <li><a href="#" id="about">About</a></li>
+            <li><a href="#" id="portfolio">Portfolio</a></li>
+            <li><a href="#" id="contact">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="home">
+        <h1>Home Content</h1>
+    </section>
+
+    <section class="about">
+        <h2>About Content</h2>
+    </section>
+
+    <section class="portfolio">
+        <h2>Portfolio Content</h2>
+        <div class="tabs">
+            <button class="all"> All Images</button>
+            <button class="image1">Image 1</button>
+            <button class="image2">Image 2</button>
+            <button class="image3">Image 3</button>
+        </div>
+        <div class="images">
+            <img src="images/female-designer-reviewing-wireframes.jpg" alt="" class="image1">
+            <img src="images/paintbrush-with-pink-on-canvas-.jpg" alt="" class="image2">
+            <img src="images/sphere-of-glowing-street-lights-in-night-sky.jpg" alt="" class="image1">
+            <img src="images/startup-desk.jpg" alt="" class="image3">
+            <img src="images/working-late.jpg" alt="" class="image3">
+            <img src="images/young-children-sharing.jpg" alt="" class="image2">
+        </div>
+    </section>
+
+    <section class="contact">
+        <h2>Contact Content</h2>
+        <label for="name">Enter Your Name : </label>
+        <input type="text" id="name" placeholder="Enter your Name...">
+        <br>
+        <label for="msg">Enter Your Message : </label>
+        <textarea name="" id="msg" cols="50" rows="3" placeholder="Don't Write Over than 50 Character..."></textarea>
+    </section>
+    <div class="scrollTop">Scroll To Top</div>
+
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
